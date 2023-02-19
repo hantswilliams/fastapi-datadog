@@ -1,0 +1,9 @@
+2023-02-19 11:19:39,079 [24179] [INFO] Starting the app logging...
+2023-02-19 11:19:39,083 [24179] [DEBUG] Using selector: KqueueSelector
+2023-02-19 11:19:39,092 [24179] [ERROR] Started server process [24179]
+2023-02-19 11:19:39,299 [24179] [INFO] Waiting for application startup.
+2023-02-19 11:19:39,363 [24179] [INFO] Application startup complete.
+2023-02-19 11:22:35,627 [24179] [INFO] Shutting down
+2023-02-19 11:22:32023-02-19 11:22:36,112 [24164] [ERROR] Stopping reloader process [24164]
+,953 [24179] [INFO] Application shutdown complete.
+2023-02-19 11:22:35,998 [24179] [ERROR] Finished server process [24179]
