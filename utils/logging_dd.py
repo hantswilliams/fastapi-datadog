@@ -43,15 +43,6 @@ class DatadogHandler(logging.Handler):
         # if record.levelno == logging.DEBUG:
         #     return
 
-        # if record.getMessage() contains the word error, errors, or exception, set the log level to error
-        if "error" in record.getMessage().lower() or "exception" in record.getMessage().lower():
-            record.levelname = "ERROR"
-
-        # if record.getMessage() contains any number between 400 and 599, set the log level to error
-        if any(str(x) in record.getMessage() for x in range(400, 600)):
-            record.levelname = "ERROR"
-
-
         toJson = json.dumps(
             {
                 "python-logging": {

@@ -13,9 +13,6 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     logger.warning("Handling root request")
-    ## print the ENV variable from .env.dev
-    print(os.getenv('ENV'))
-    ## log the ENV variable from .env.dev
     logger.info('ENV: {}'.format(os.getenv('ENV')))
     return {"Hello": "World 3"}
 
